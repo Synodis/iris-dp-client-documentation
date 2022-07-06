@@ -15,6 +15,3 @@ Démarrez rapidement dans l'intégration des données de l'Api ANS.
 * [IHM Fhir]
 
 
-
-
-

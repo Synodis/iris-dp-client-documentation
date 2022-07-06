@@ -6,7 +6,7 @@ Trouvez ici tous les guides pour implémenter un client au service FHIR Iris de 
 
 Démarrez rapidement dans l'intégration des données de l'Api ANS. 
 
-[En savoir plus](quick-start/index)
+[En savoir plus](quick-start/readme.md)
 
 ## Sections
 

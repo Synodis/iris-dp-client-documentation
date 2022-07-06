@@ -32,7 +32,7 @@ github_username:  jekyll
 
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: ftprod/theme-jekyll
 plugins:
   - jekyll-feed
 

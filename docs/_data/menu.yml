@@ -1,0 +1,32 @@
+header:
+  - title: Accueil
+    url: /
+  - title: Quick start
+    url: /pages/quick-start/readme
+  - title: Documentation
+    subfolderitems:
+      - page: Autentification
+        url: /documentation/authentication.html
+      - page: Ressources
+        url: /pages/documentation/resources/practitioner.html
+        subfolderitems:
+          - page: Organization
+            url: /pages/documentation/resources/organization.html
+          - page: Practitioner
+            url: /pages/documentation/resources/practitioner.html
+          - page: PractitionerRole
+            url: /pages/documentation/resources/practitioner-role.html
+          - page: HealthcareService
+            url: /pages/documentation/resources/healthcare-service.html
+          - page: Device
+            url: /pages/documentation/resources/device.html
+          
+  - title: Uses cases
+    subfolderitems:
+      - page: Synchronisation de l'annuaire
+        url: /use-cases/synchronization.html
+      - page: Appels unitaires
+        url: /use-cases/simple-calls.html
+  - title: IHM Fhir
+    url: http://console.fhir.com
+    external: true

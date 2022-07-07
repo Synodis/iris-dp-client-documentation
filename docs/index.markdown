@@ -6,9 +6,6 @@ layout: home
 ---
 
 
-
-
-
 # Documentation
 Trouvez ici tous les guides pour implémenter un client au service FHIR Iris de l'Ans.
 
@@ -23,3 +20,5 @@ Démarrez rapidement dans l'intégration des données de l'Api ANS.
 * [Documentation](pages/documentation/index)
 * [Uses cases](pages/use-cases/index)
 * [IHM Fhir]
+
+

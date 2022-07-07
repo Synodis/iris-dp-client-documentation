@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include nav.html %}
+    <div class="body-wrapper">
+        {% include header.html %}
+        <main class="main" role="main" id="main" tabindex="-1">
+            <div class="sg-container-content">
+                {{ content }}
+            </div>
+        </main>
+        {% include footer.html %}
+    </div>
+
+
+    {% include scripts.html %}
+  </body>
+</html>

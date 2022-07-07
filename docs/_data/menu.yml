@@ -6,7 +6,7 @@ header:
   - title: Documentation
     subfolderitems:
       - page: Autentification
-        url: /documentation/authentication.html
+        url: /pages/documentation/authentication.html
       - page: Ressources
         url: /pages/documentation/resources/practitioner.html
         subfolderitems:
@@ -24,9 +24,9 @@ header:
   - title: Uses cases
     subfolderitems:
       - page: Synchronisation de l'annuaire
-        url: /use-cases/synchronization.html
+        url: /pages/use-cases/full/index
       - page: Appels unitaires
-        url: /use-cases/simple-calls.html
+        url: /pages/use-cases/practitioner-detail/index
   - title: IHM Fhir
     url: http://console.fhir.com
     external: true

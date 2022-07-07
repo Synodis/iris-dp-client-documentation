@@ -1,6 +1,7 @@
 ---
 layout: documentation
 title: Device
+subTitle: Resources
 ---
 
 Ici ce sont des requêtes sur la ressource FHIR. 

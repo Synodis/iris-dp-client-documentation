@@ -13,6 +13,10 @@
                 transition: color .25s ease,background-color .25s ease,border-color .25s ease;
                 width: 100%;
             }
+.left-menu > ul > .nav-item > a.active{background-color: #f2f3f7;
+            color: var(--primary);
+            font-weight: 600;}
+
 .left-menu > ul > .nav-item ul .nav-item{
                     border-radius: 0.9rem;
                     color: #697097;
@@ -21,7 +25,11 @@
                     text-decoration: none;
                     transition: color .25s ease,background-color .25s ease,border-color .25s ease;
                     width: 100%;
-              
+            }
+.left-menu > ul > .nav-item ul .nav-item.a{       
+                background-color: #f2f3f7;
+                color: var(--primary);
+                font-weight: 600;
             }
 /*
 

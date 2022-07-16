@@ -1,5 +1,10 @@
 ---
 ---
+
+@import url("{{ '/assets/css/left-nav.css' | relative_url }}");
+@import url("{{ '/assets/css/layout.css' | relative_url }}");
+@import url("{{ '/assets/css/pygments-css/friendly.css' | relative_url }}");
+
 .doc-section-title{
     display: block;
     font-size: 21px;
@@ -24,8 +29,7 @@ main{
     text-transform: uppercase;
 }
 
-@import url('left-nav.css');
-@import url('layout.css');
-
-
-
+div.highlight{
+    padding: 12px;
+    border-radius: 6px;
+}

@@ -1,18 +1,28 @@
-# Documentation
+Projet de documentation sur l'utilisation de l'api Iris DP. 
 
-Trouvez ici tous les guides pour implémenter un client au service FHIR Iris de l'Ans.
+Ce projet a été pensé pour être distribué au travers de github pages. Il utilise Jekyll qui est supporté par github. 
 
-## Quick start
+Le projet Jekyll se trouve dans le dossier docs/
 
-Démarrez rapidement dans l'intégration des données de l'Api ANS. 
+# Développement
 
-[En savoir plus](pages/quick-start/readme.md)
+Pour lancer le projet localement, allez dans le dossier docs puis lancez la commande `bundle exec jekyll serve`.
 
-## Sections
+Le site sera accéssible sur l'url : `http://localhost:4000/docs/`.
 
-* [Documentation](pages/documentation/index)
-* [Uses cases](pages/use-cases/index)
-* [IHM Fhir]
+# Rédaction 
 
+Pour rédiger de la documentation, vous pouvez créer / modifier les fichier .md (markdown) dans le dossier "docs/pages/". 
 
+Répertoires: 
+
+* documentation: documentation générale ressource par ressource
+* quick-start: section regroupant la documentation de démarrage rapide
+* use-cases: section qui contient des tutoriaux complets basés sur des uses cases
+
+# Publication (déploiement)
+
+Pour mettre en ligne, publiez le projet sur un projet GitHub et dans la section "Settings > Pages", activez la fonctionalité github pages. 
+
+Dans la version gratuite de Github, vous devez mettre le projet publique pour que cela fonctionne. 
 

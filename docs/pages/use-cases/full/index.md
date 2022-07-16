@@ -13,6 +13,8 @@ Les données que nous allons chercher à récupérer sont :
 * Organization (Lieu d'exercice)
 </div>
 
+&nbsp;
+
 ![Schema](img/full-import-schema-01.png){:class="img-responsive" style="width:500px"}
 
 ## Qui est concerné ?
@@ -21,6 +23,9 @@ Les données que nous allons chercher à récupérer sont :
 * Vous avez une base de données dans votre SI et vous souhaitez periodiquement compléter vos données avec celles de l'annuaire
 * Vous souhaitez avoir une image de l'annuaire santé chez vous dans votre SI
 </div>
+
+&nbsp;
+
 
 
 ## Ce dont vous aurez besoin
@@ -32,6 +37,8 @@ Les données que nous allons chercher à récupérer sont :
 * Maven 3+
 </div>
 
+&nbsp;
+
 
 ## Etapes
 
@@ -41,6 +48,9 @@ Les données que nous allons chercher à récupérer sont :
 * Nous allons modifier notre requête pour aller chercher des ressources liées à la première requête
 * Enfin nous verons comment mettre à jour les données de notre annuaire
 </div>
+
+&nbsp;
+
 
 ### Initialisation du projet 
 
@@ -78,10 +88,11 @@ Pour la démonstration, le projet est un projet java maven. Nous utilisons la li
 </dependencies>
 ```
 
+&nbsp;
 
-### Récupération des practitioner roles
+### Récupération des ressources PractitionerRole
 
-Pour le cas d'exemple, nous allons chercher uniquement les PractitionerRoles qui ont une spécialité à SM02 (correspond à Anesthésie-réanimation)
+Pour le cas d'exemple, nous allons chercher uniquement les ressources PractitionerRole qui ont une spécialité à SM02 (correspond à Anesthésie-réanimation)
 
 Créer un client FHIR avec la librairie Hapi en utilisant l'api Hapi:
 
@@ -174,6 +185,8 @@ do {
 }while (fhirBundle.getLink("next") != null);
 ```
 
+&nbsp;
+
 ### Récupération des éléments liés : Organization et Practitioner
 
 Désormais nous allons modifier le code afin de récupérer les également les Practitioner associés ainsi que les Organization. 
@@ -261,6 +274,8 @@ do {
 }while (fhirBundle.getLink("next") != null);
 ```
 
+&nbsp;
+
 Note| Avec cette technique, vous pouvez recevoir un élément Organization plusieurs fois au fil des pages. En effet, vous recevrez la liste  des Organization référéncés par les éléments de la page courante. 
 
 
@@ -283,6 +298,7 @@ Dans ce cas, vous allez devoir faire la requête en plusieurs étapes.
 2. Ensuite, afin de trouver les Practitioner associés à vos PractitionerRoles vous avez plusiseurs possibilités. Dans cet exemple nous allons parcourir nos PractitionerRoles et faire une requête par référence.
 </div>
 
+&nbsp;
 
 
 

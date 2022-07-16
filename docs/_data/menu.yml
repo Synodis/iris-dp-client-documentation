@@ -5,8 +5,12 @@ header:
     url: /pages/quick-start/readme
   - title: Documentation
     subfolderitems:
-      - page: Autentification
-        url: /pages/documentation/authentication.html
+      - page: Démarrage
+        subfolderitems:
+          - page: Java
+            url: /pages/documentation/starters/java-starter.html
+          - page: PHP
+            url: /pages/documentation/starters/php-starter.html
       - page: Ressources
         url: /pages/documentation/resources/practitioner.html
         subfolderitems:
@@ -20,7 +24,14 @@ header:
             url: /pages/documentation/resources/healthcare-service.html
           - page: Device
             url: /pages/documentation/resources/device.html
-          
+      - page: Techniques avancées
+        url: /pages/documentation/resources/practitioner.html
+        subfolderitems:
+          - page: Liaison entre plusieurs ressources
+            url: /pages/documentation/advanced/link.html
+          - page: Stockage
+            url: /pages/documentation/advanced/storage.html
+
   - title: Uses cases
     subfolderitems:
       - page: Synchronisation de l'annuaire
